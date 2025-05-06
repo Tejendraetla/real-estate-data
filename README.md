@@ -1,25 +1,20 @@
-<p align="left">
-<a href="https://www.ssp.sh/" target="_blank"><img src="https://ssp.sh/images/sspaeti_quadrat.png" height="100"/></a>
-</p>
-
-# Practical Data Engineering: A Hands-On Real-Estate Project Guide
-
-[![Open Source Logos](https://www.ssp.sh/blog/data-engineering-project-in-twenty-minutes/images/open-source-logos.png)](https://www.ssp.sh/blog/data-engineering-project-in-twenty-minutes/)
-
-This repository containts a practical implementation of a data engineering project that spans across web-scraping real-estates, processing with Spark and Delta Lake, adding data science with Jupyter Notebooks, ingesting data into Apache Druid, visualizing with Apache Superset, and managing workflows with Dagster—all orchestrated on Kubernetes. 
-
-**Built your own DE project or forked mine? Let me know in the comments; I'd be curious to know more about.**
-
-## 🌟 About This Project
-
+About This Project
 This Practical Data Engineering project addresses common data engineering challenges while exploring innovative technologies. It should serve as a learning project but incorporate comprehensive real-world use cases. It's a guide to building a data application that collects real-estate data, enriches it with various metrics, and offers insights through machine learning and data visualization. This application helps you find your dream properties in your area and showcases how to handle a full-fledged data engineering pipeline using modern tools and frameworks.
 
-### Why this project?
-- **Real-World Application**: Tackling a genuine problem with real estate data to find the best properties.
-- **Comprehensive Tech Stack**: Utilizes a wide range of technologies from web scraping, S3 storage, data processing, machine learning, to data visualization and orchestration.
-- **Hands-On Learning**: Offers a hands-on approach to understanding how different technologies integrate and complement each other in a real-world scenario.
-
-### Key Features & Learnings:
+Why this project?
+Real-World Application: Tackling a genuine problem with real estate data to find the best properties.
+Comprehensive Tech Stack: Utilizes a wide range of technologies from web scraping, S3 storage, data processing, machine learning, to data visualization and orchestration.
+Hands-On Learning: Offers a hands-on approach to understanding how different technologies integrate and complement each other in a real-world scenario.
+Key Features & Learnings:
+Scraping real estate listings with Beautiful Soup
+Change Data Capture (CDC) mechanisms for efficient data updates
+Utilizing MinIO as an S3-Gateway for cloud-agnostic storage
+Implementing UPSERTs and ACID transactions with Delta Lake
+Integrating Jupyter Notebooks for data science tasks Visualizing data with Apache Superset
+Orchestrating workflows with Dagster
+Deploying on Kubernetes for scalability and cloud-agnostic architecture
+Technologies, Tools, and Frameworks:
+This project leverages a vast array of open-source technologies including MinIO, Spark, Delta Lake, Jupyter Notebooks, Apache Druid, Apache Superset, and Dagster—all running on Kubernetes to ensure scalability and cloud-agnostic deployment.
 - Scraping real estate listings with [Beautiful Soup](https://beautiful-soup-4.readthedocs.io/en/latest/index.html)
 - Change Data Capture (CDC) mechanisms for efficient data updates
 - Utilizing [MinIO](https://github.com/minio/minio) as an S3-Gateway for cloud-agnostic storage
@@ -81,13 +76,6 @@ dagster dev
 
 ![Dagster UI – Practical Data Engineering Pipeline](images/dagster-practical-data-engineering-pipeline.png)
 
-## 📚 Resources & Further Reading
-- [YouTube Video](https://youtu.be/FfDOsgg2EEQ): Watch the video tutorial on building this project.
-- [Building a Data Engineering Project in 20 Minutes](https://www.ssp.sh/blog/data-engineering-project-in-twenty-minutes/): Access the full blog post detailing the project's development, challenges, and solutions.
-- [DevOps Repositories](https://github.com/ssp-data/data-engineering-devops): Explore the setup for Druid, MinIO and other components.
-- [Open-Source Data Engineering Projects](https://www.ssp.sh/brain/open-source-data-engineering-projects/): A curated list of open-source data engineering projects to explore.
-- [Data Engineering Vault](https://vault.ssp.sh/): A collection of resources, tutorials, and guides for data engineering projects.
-- [Data Engineering Design Patterns](https://www.dedp.online): My book about the evolution of data engineering and its design patterns.
 
 
 ## 📣 Feedback
